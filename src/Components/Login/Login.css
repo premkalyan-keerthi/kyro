@@ -1,0 +1,41 @@
+.title{
+    background-color: rgb(65, 65, 194);
+    height:50px;
+}
+.title-box{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.input-box{
+  
+    width:25%;
+    margin-top:100px;
+    
+    height:300px;
+    background-color:rgb(228, 209, 184);
+    text-align: center;
+}
+.row1{
+  
+    margin-top: 10px;
+}
+.labelp{
+    margin-top: 5px;
+}
+.row{
+    margin: top 150px;
+    text-align: center;
+}
+.submit{
+  background-color: rgb(78, 201, 21);
+  height:30px;
+  width:80px;
+  font-size: large;
+}
+
+.socialmedia{
+   margin-top: 50px;
+}
