@@ -1,41 +1,64 @@
-.title{
+.title-box {
     background-color: rgb(65, 65, 194);
-    height:50px;
+    height: 50px;
 }
-.title-box{
+
+.title {
     margin: 0px;
     font-size: 30px;
     text-align: center;
 }
 
 
-.input-box{
-  
-    width:25%;
-    margin-top:100px;
-    
-    height:300px;
-    background-color:rgb(228, 209, 184);
+.input-box {
+    width: 25%;
+    margin-top: 100px;
+    height: 300px;
+    background-color: rgb(228, 209, 184);
     text-align: center;
-}
-.row1{
-  
-    margin-top: 10px;
-}
-.labelp{
-    margin-top: 5px;
-}
-.row{
-    margin: top 150px;
-    text-align: center;
-}
-.submit{
-  background-color: rgb(78, 201, 21);
-  height:30px;
-  width:80px;
-  font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.socialmedia{
-   margin-top: 50px;
+.password-text {
+    margin-top: 5px;
+}
+
+.row {
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    background-color: rgb(78, 201, 21);
+    height: 30px;
+    width: 80px;
+    font-size: large;
+    margin: auto;
+}
+
+.social-media-container {
+    margin-top: 50px;
+}
+
+.social-images-container {
+    margin-top: 10px;
+}
+
+.form-custom-styles {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+    height: 15px;
+}
+
+.social-media-image {
+    margin-left: 5px;
 }
